@@ -1,0 +1,15 @@
+.button{
+-fx-background-color: "white";
+} .root{
+-fx-background-color: rgb(91,34,58);
+} .label{
+-fx-font-size: 10;
+}
+.button:hover {
+  -fx-background-color: lightgray;
+    -fx-text-fill: white;
+}
+.button:pressed {
+    -fx-background-color: gray;
+    -fx-text-fill: white;
+}

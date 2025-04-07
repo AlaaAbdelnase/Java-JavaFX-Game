@@ -1,0 +1,15 @@
+.button{
+-fx-background-color: "white";
+} .root{
+-fx-background-color: rgb(91,34,58);
+} .label{
+	-fx-font-size: 10;
+    -fx-text-fill: red;
+}
+@font-face {
+    src: url('MineCraft.ttf');
+}
+
+.text {
+    -fx-font-family:"MineCraft";
+}

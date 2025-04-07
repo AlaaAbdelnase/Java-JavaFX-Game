@@ -1,0 +1,53 @@
+.button{
+-fx-background-color: "white";
+} .root{
+-fx-background-color: rgb(91,34,58);
+} .label{
+-fx-font-size: 10;
+}
+.button:hover {
+  -fx-background-color: lightgray;
+    -fx-text-fill: white;
+}
+.button:pressed {
+    -fx-background-color: gray;
+    -fx-text-fill: white;
+}
+@font-face {
+    src: url('MineCraft.ttf');
+}
+
+.text {
+    -fx-font-family:"MineCraft";
+}
+
+.root { -fx-background-color: cornsilk; -fx-padding: 15; }
+
+.progress-bar { -fx-box-border: goldenrod; }
+
+.green-bar  { -fx-accent: green;  }
+.yellow-bar { -fx-accent: yellow; }
+.orange-bar { -fx-accent: orange; }
+.red-bar    { -fx-accent: red;    }
+.progress-bar {
+    -fx-accent: red; /* Sets the color of the progress bar */
+}
+
+.progress-bar .track {
+    -fx-background-color: black; /* Sets the color of the track */
+}
+
+.progress-bar .bar {
+    -fx-background-color: red; /* Ensures the bar is red */
+}
+.progress-indicator {
+    -fx-accent: green; /* Sets the color of the progress arc */
+}
+
+.progress-indicator .track {
+    -fx-background-color: black; /* Sets the color of the track */
+}
+
+.progress-indicator .spinner-pane .arc {
+    -fx-stroke: green; /* Ensures the progress arc is red */
+}

@@ -1,0 +1,40 @@
+.button{
+-fx-background-color: "white";
+    -fx-font-family: "MineCraft";
+  	-fx-font-size: 10;
+} .root{
+-fx-background-color: rgb(91,34,58);
+} .label{
+-fx-font-size: 17.5;
+-fx-text-background-color: white;
+}
+@font-face {
+    font-family: 'MineCraft';
+    src: url('MineCraft.ttf');
+}
+
+.text {
+    -fx-font-family: "MineCraft";
+}
+.progress-bar {
+    -fx-accent: red; /* Sets the color of the progress bar */
+}
+
+.progress-bar .track {
+    -fx-background-color: black; /* Sets the color of the track */
+}
+
+.progress-bar .bar {
+    -fx-background-color: red; /* Ensures the bar is red */
+}
+.progress-indicator {
+    -fx-accent: green; /* Sets the color of the progress arc */
+}
+
+.progress-indicator .track {
+    -fx-background-color: black; /* Sets the color of the track */
+}
+
+.progress-indicator .spinner-pane .arc {
+    -fx-stroke: green; /* Ensures the progress arc is red */
+}
